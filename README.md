@@ -19,3 +19,11 @@
 - Use async and await keywords to handle asynchronous functionality to increase legibility.
 
 - Create user authentication that enables identity verification with a hashed password.
+
+# 13.3
+
+- Make associations to reflect relationships between models.
+
+- Use include to JOIN associated table data in queries.
+
+- Create API endpoints to execute CRUD on a Post.
