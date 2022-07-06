@@ -11,14 +11,14 @@ class User extends Model {
     }
 }
 
-// define tabel columns and configuration
+// define table columns and configuration
 User.init(
     {
         // TABLE COLUMN DEFINITIONS GO HERE
 
         // define an id column
         id: {
-            // use spoecial Sequelize DataTypes object provide what type of data it is
+            // use special Sequelize DataTypes object provide what type of data it is
             type: DataTypes.INTEGER,
 
             // this is the equivalent of SQL's `Not Null` option
@@ -93,7 +93,7 @@ User.init(
         timestamps: false,
 
         // don't pluralize name of database table
-        freeTableName: false,
+        freezeTableName: true,
 
         // use underscores instead of camel-casing (i.e. `comment_text` and not `commentText`)
         underscored: true,
