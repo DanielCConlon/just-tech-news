@@ -27,3 +27,15 @@
 - Use include to JOIN associated table data in queries.
 
 - Create API endpoints to execute CRUD on a Post.
+
+# 13.4
+
+- Create a new Vote model to store data about who is voting on which posts.
+
+- Implement a many-to-many model association using Sequelize.
+
+- Create a route allowing a user to vote on a post.
+
+- Update existing routes to query for related data to see who has voted on what post.
+
+- Clean up some of the code with a custom static Sequelize model method.
