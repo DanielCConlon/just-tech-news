@@ -39,3 +39,15 @@
 - Update existing routes to query for related data to see who has voted on what post.
 
 - Clean up some of the code with a custom static Sequelize model method.
+
+# 13.5
+
+- Create a new Comment model to store data about who is commenting on which post.
+
+- Implement a double belongsTo/hasMany association using Sequelize.
+
+- Create routes that allow users to add new and delete old comments.
+
+- Update existing routes to include comment data.
+
+- Deploy the full suite of APIs to Heroku with their free SQL add-on.
