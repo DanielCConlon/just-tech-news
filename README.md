@@ -57,3 +57,11 @@
 - Use proper code organization paradigms in a full-stack app.
 
 - Use a template engine to deliver front-end files.
+
+# 14.2
+
+- Building a new Handlebars.js view.
+
+- Making fetch requests on the front end.
+
+- Leveraging previously-written sequelize queries.
