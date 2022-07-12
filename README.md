@@ -51,3 +51,9 @@
 - Update existing routes to include comment data.
 
 - Deploy the full suite of APIs to Heroku with their free SQL add-on.
+
+# 14.1
+
+- Use proper code organization paradigms in a full-stack app.
+
+- Use a template engine to deliver front-end files.
