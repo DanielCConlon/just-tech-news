@@ -65,3 +65,9 @@
 - Making fetch requests on the front end.
 
 - Leveraging previously-written sequelize queries.
+
+# 14.3
+
+- Use session data within a template.
+
+- Write conditionals to change a template's layout.
