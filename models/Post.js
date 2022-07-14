@@ -6,8 +6,7 @@ class Post extends Model {
     return models.Vote.create({
       user_id: body.user_id,
       post_id: body.post_id
-    })
-    .then(() => {
+    }).then(() => {
       return Post.findOne({
         where: {
           id: body.post_id
@@ -21,9 +20,19 @@ class Post extends Model {
             sequelize.literal('(SELECT COUNT(*) FROM vote WHERE post.id = vote.post_id)'),
             'vote_count'
           ]
+        ],
+        include: [
+          {
+            model: models.Comment,
+            attributes: ['id', 'comment_text', 'post_id', 'user_id', 'created_at'],
+            include: {
+              model: models.User,
+              attributes: ['username']
+            }
+          }
         ]
-      })
-    })
+      });
+    });
   }
 }
 

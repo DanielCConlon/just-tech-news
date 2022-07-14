@@ -71,3 +71,17 @@
 - Use session data within a template.
 
 - Write conditionals to change a template's layout.
+
+# 14.4
+
+# 14.5
+
+- Creating a Handlebars.js template.
+
+- Implementing existing partials.
+
+- Capturing data and making requests on the front end.
+
+- Restrict routes to only logged in users.
+
+- Write custom middleware for Express.js.
