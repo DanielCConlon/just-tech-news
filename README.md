@@ -1,87 +1,24 @@
 # just-tech-news
 
-# 13.1
+# jest-another-rpg
 
-- Set up the application to use Sequelize to manage SQL data.
+- Github URL: https://github.com/DanielCConlon/just-tech-news
+- Heroku URL: https://young-refuge-63113.herokuapp.com/
 
-- Used environment variables to protect the sensitive data.
+## Table-of-Contents
 
-- Created a user table using Sequelize models.
+- [Description](#description)
+- [Usage](#usage)
+- [Application](#application)
 
-- Created all of the server endpoints using RESTful API standards to work with the user model’s data.
+## [Description](#description)
 
-# 13.2
+This application is a Tech Blog site deployed to Heroku. This app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication. In the site users can sign up for the blog, write, edit, and delete their own blog posts, read other users blog posts and comment on them, and log out of the site.
 
-- Secure user passwords stored in a database with hashing.
+## [Usage](#table-of-contents)
 
-- Add Sequelize hooks (lifecycle events) at key junctures in the application workflow to process important tasks
+Login or signup for just tech news to read others posts and create your own. As well as comment and upcote on posts.
 
-- Use async and await keywords to handle asynchronous functionality to increase legibility.
+## [Application](#table-of-contents)
 
-- Create user authentication that enables identity verification with a hashed password.
-
-# 13.3
-
-- Make associations to reflect relationships between models.
-
-- Use include to JOIN associated table data in queries.
-
-- Create API endpoints to execute CRUD on a Post.
-
-# 13.4
-
-- Create a new Vote model to store data about who is voting on which posts.
-
-- Implement a many-to-many model association using Sequelize.
-
-- Create a route allowing a user to vote on a post.
-
-- Update existing routes to query for related data to see who has voted on what post.
-
-- Clean up some of the code with a custom static Sequelize model method.
-
-# 13.5
-
-- Create a new Comment model to store data about who is commenting on which post.
-
-- Implement a double belongsTo/hasMany association using Sequelize.
-
-- Create routes that allow users to add new and delete old comments.
-
-- Update existing routes to include comment data.
-
-- Deploy the full suite of APIs to Heroku with their free SQL add-on.
-
-# 14.1
-
-- Use proper code organization paradigms in a full-stack app.
-
-- Use a template engine to deliver front-end files.
-
-# 14.2
-
-- Building a new Handlebars.js view.
-
-- Making fetch requests on the front end.
-
-- Leveraging previously-written sequelize queries.
-
-# 14.3
-
-- Use session data within a template.
-
-- Write conditionals to change a template's layout.
-
-# 14.4
-
-# 14.5
-
-- Creating a Handlebars.js template.
-
-- Implementing existing partials.
-
-- Capturing data and making requests on the front end.
-
-- Restrict routes to only logged in users.
-
-- Write custom middleware for Express.js.
+![Website image](./utils/Capture.PNG)
