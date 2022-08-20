@@ -1,7 +1,5 @@
 # just-tech-news
 
-# jest-another-rpg
-
 - Github URL: https://github.com/DanielCConlon/just-tech-news
 - Heroku URL: https://young-refuge-63113.herokuapp.com/
 
