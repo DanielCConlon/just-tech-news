@@ -1,7 +1,8 @@
 # just-tech-news
 
 - Github URL: https://github.com/DanielCConlon/just-tech-news
-- Heroku URL: https://young-refuge-63113.herokuapp.com/
+- Heroku URL: Need to replace heroku deployment
+<!-- https://young-refuge-63113.herokuapp.com/ -->
 
 ## Table-of-Contents
 
